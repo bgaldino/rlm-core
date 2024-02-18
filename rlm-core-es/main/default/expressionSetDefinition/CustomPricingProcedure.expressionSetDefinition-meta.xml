@@ -12,7 +12,7 @@
         <label>CustomPricingProcedure V1</label>
         <processType>DefaultPricing</processType>
         <shouldShowExplExternally>false</shouldShowExplExternally>
-        <startDate>2024-02-01T21:10:07.000Z</startDate>
+        <startDate>2024-02-01T00:00:00.000Z</startDate>
         <status>Inactive</status>
         <steps>
             <actionType>ListPrice</actionType>

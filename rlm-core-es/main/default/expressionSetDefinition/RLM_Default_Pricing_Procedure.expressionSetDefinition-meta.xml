@@ -13,7 +13,7 @@
         <label>RLM Default Pricing Procedure</label>
         <processType>DefaultPricing</processType>
         <shouldShowExplExternally>false</shouldShowExplExternally>
-        <startDate>2023-10-24T19:56:40.000Z</startDate>
+        <startDate>2024-02-01T00:00:00.000Z</startDate>
         <status>Inactive</status>
         <steps>
             <actionType>GroupingAndAggregatePricing</actionType>
