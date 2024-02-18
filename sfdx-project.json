@@ -1,0 +1,18 @@
+{
+  "packageDirectories": [
+    {
+      "path": "rlm-core-dt",
+      "default": true
+    },
+    {
+      "path": "rlm-core-cd"
+    },
+    {
+      "path": "rlm-core-es"
+    }
+  ],
+  "name": "rlm-core",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "60.0"
+}
