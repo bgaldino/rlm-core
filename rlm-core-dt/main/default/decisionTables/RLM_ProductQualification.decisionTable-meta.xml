@@ -37,6 +37,7 @@
         <sequence>1</sequence>
         <usage>INPUT</usage>
     </decisionTableParameters>
+    <description>RLM Default Product Qualification Decision Table</description>
     <doesConsiderNullValue>false</doesConsiderNullValue>
     <filterResultBy>OutputOrder</filterResultBy>
     <setupName>RLM_ProductQualification</setupName>
