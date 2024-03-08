@@ -182,7 +182,7 @@
                 <inheritedFrom>ProductDiscoveryContext__stdctx/version/ProductDiscoveryMapping/PricingProduct</inheritedFrom>
                 <object>PricingProduct</object>
             </contextNodeMappings>
-            <default>true</default>
+            <default>false</default>
             <description>Mapping for Product Discovery flow</description>
             <inheritedFrom>ProductDiscoveryContext__stdctx/version/ProductDiscoveryMapping</inheritedFrom>
             <title>ProductDiscoveryMapping</title>
@@ -198,16 +198,6 @@
                 <inheritedFrom>ProductDiscoveryContext__stdctx/version/Catalog/CatalogId</inheritedFrom>
                 <key>false</key>
                 <title>CatalogId</title>
-                <value>false</value>
-            </contextAttributes>
-            <contextAttributes>
-                <contextTags>
-                    <title>CurrentDate</title>
-                </contextTags>
-                <dataType>string</dataType>
-                <fieldType>input</fieldType>
-                <key>false</key>
-                <title>CurrentDate</title>
                 <value>false</value>
             </contextAttributes>
             <contextTags>
@@ -637,38 +627,13 @@
             <title>PricingProduct</title>
             <transposable>false</transposable>
         </contextNodes>
-        <contextNodes>
-            <contextAttributes>
-                <dataType>reference</dataType>
-                <domainSet>CategoryProduct</domainSet>
-                <fieldType>input</fieldType>
-                <key>false</key>
-                <title>ParentReference</title>
-                <value>false</value>
-            </contextAttributes>
-            <contextAttributes>
-                <dataType>string</dataType>
-                <fieldType>output</fieldType>
-                <key>false</key>
-                <title>Value</title>
-                <value>false</value>
-            </contextAttributes>
-            <contextAttributes>
-                <dataType>string</dataType>
-                <fieldType>output</fieldType>
-                <key>false</key>
-                <title>Name</title>
-                <value>false</value>
-            </contextAttributes>
-            <title>Message</title>
-            <transposable>false</transposable>
-        </contextNodes>
-        <isActive>true</isActive>
-        <startDate>2024-01-02 07:32:05</startDate>
+        <isActive>false</isActive>
+        <startDate>2024-01-01 00:00:00</startDate>
         <versionNumber>1</versionNumber>
     </contextDefinitionVersions>
     <contextTtl>10</contextTtl>
     <inheritedFrom>ProductDiscoveryContext__stdctx</inheritedFrom>
+    <inheritedFromVersion>0.1</inheritedFromVersion>
     <isProtected>false</isProtected>
     <masterLabel>RLM_ProductDiscoveryContext</masterLabel>
     <title>RLM_ProductDiscoveryContext</title>

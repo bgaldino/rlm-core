@@ -1447,7 +1447,7 @@
                 <inheritedFrom>SalesTransactionContext__stdctx/version/SalesTransaction/LineItemDecomposition</inheritedFrom>
                 <object>LineItemDecomposition</object>
             </contextNodeMappings>
-            <default>true</default>
+            <default>false</default>
             <description>Mapping to map entities related to pricing elements</description>
             <inheritedFrom>SalesTransactionContext__stdctx/version/SalesTransaction</inheritedFrom>
             <title>SalesTransaction</title>
@@ -5898,75 +5898,6 @@
         <contextNodes>
             <contextAttributes>
                 <contextTags>
-                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractSource/ContractSource</inheritedFrom>
-                    <title>ContractSource</title>
-                </contextTags>
-                <dataType>string</dataType>
-                <fieldType>input</fieldType>
-                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractSource</inheritedFrom>
-                <key>false</key>
-                <title>ContractSource</title>
-                <value>false</value>
-            </contextAttributes>
-            <contextAttributes>
-                <contextTags>
-                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractStatusCode/ContractStatusCode</inheritedFrom>
-                    <title>ContractStatusCode</title>
-                </contextTags>
-                <dataType>string</dataType>
-                <fieldType>input</fieldType>
-                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractStatusCode</inheritedFrom>
-                <key>false</key>
-                <title>ContractStatusCode</title>
-                <value>false</value>
-            </contextAttributes>
-            <contextAttributes>
-                <contextTags>
-                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractRenewalTerm/ContractRenewalTerm</inheritedFrom>
-                    <title>ContractRenewalTerm</title>
-                </contextTags>
-                <dataType>number</dataType>
-                <fieldType>input</fieldType>
-                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractRenewalTerm</inheritedFrom>
-                <key>false</key>
-                <title>ContractRenewalTerm</title>
-                <value>false</value>
-            </contextAttributes>
-            <contextAttributes>
-                <contextTags>
-                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractRenewalTermUnit/ContractRenewalTermUnit</inheritedFrom>
-                    <title>ContractRenewalTermUnit</title>
-                </contextTags>
-                <dataType>string</dataType>
-                <fieldType>input</fieldType>
-                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractRenewalTermUnit</inheritedFrom>
-                <key>false</key>
-                <title>ContractRenewalTermUnit</title>
-                <value>false</value>
-            </contextAttributes>
-            <contextAttributes>
-                <contextTags>
-                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractPricingSource/ContractPricingSource</inheritedFrom>
-                    <title>ContractPricingSource</title>
-                </contextTags>
-                <dataType>string</dataType>
-                <fieldType>input</fieldType>
-                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractPricingSource</inheritedFrom>
-                <key>false</key>
-                <title>ContractPricingSource</title>
-                <value>false</value>
-            </contextAttributes>
-            <contextTags>
-                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractTag</inheritedFrom>
-                <title>ContractTag</title>
-            </contextTags>
-            <inheritedFrom>SalesTransactionContext__stdctx/version/Contract</inheritedFrom>
-            <title>Contract</title>
-            <transposable>false</transposable>
-        </contextNodes>
-        <contextNodes>
-            <contextAttributes>
-                <contextTags>
                     <inheritedFrom>SalesTransactionContext__stdctx/version/Asset/AssetAccount/AssetAccount</inheritedFrom>
                     <title>AssetAccount</title>
                 </contextTags>
@@ -6151,6 +6082,75 @@
             </contextTags>
             <inheritedFrom>SalesTransactionContext__stdctx/version/Asset</inheritedFrom>
             <title>Asset</title>
+            <transposable>false</transposable>
+        </contextNodes>
+        <contextNodes>
+            <contextAttributes>
+                <contextTags>
+                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractSource/ContractSource</inheritedFrom>
+                    <title>ContractSource</title>
+                </contextTags>
+                <dataType>string</dataType>
+                <fieldType>input</fieldType>
+                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractSource</inheritedFrom>
+                <key>false</key>
+                <title>ContractSource</title>
+                <value>false</value>
+            </contextAttributes>
+            <contextAttributes>
+                <contextTags>
+                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractStatusCode/ContractStatusCode</inheritedFrom>
+                    <title>ContractStatusCode</title>
+                </contextTags>
+                <dataType>string</dataType>
+                <fieldType>input</fieldType>
+                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractStatusCode</inheritedFrom>
+                <key>false</key>
+                <title>ContractStatusCode</title>
+                <value>false</value>
+            </contextAttributes>
+            <contextAttributes>
+                <contextTags>
+                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractRenewalTerm/ContractRenewalTerm</inheritedFrom>
+                    <title>ContractRenewalTerm</title>
+                </contextTags>
+                <dataType>number</dataType>
+                <fieldType>input</fieldType>
+                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractRenewalTerm</inheritedFrom>
+                <key>false</key>
+                <title>ContractRenewalTerm</title>
+                <value>false</value>
+            </contextAttributes>
+            <contextAttributes>
+                <contextTags>
+                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractRenewalTermUnit/ContractRenewalTermUnit</inheritedFrom>
+                    <title>ContractRenewalTermUnit</title>
+                </contextTags>
+                <dataType>string</dataType>
+                <fieldType>input</fieldType>
+                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractRenewalTermUnit</inheritedFrom>
+                <key>false</key>
+                <title>ContractRenewalTermUnit</title>
+                <value>false</value>
+            </contextAttributes>
+            <contextAttributes>
+                <contextTags>
+                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractPricingSource/ContractPricingSource</inheritedFrom>
+                    <title>ContractPricingSource</title>
+                </contextTags>
+                <dataType>string</dataType>
+                <fieldType>input</fieldType>
+                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractPricingSource</inheritedFrom>
+                <key>false</key>
+                <title>ContractPricingSource</title>
+                <value>false</value>
+            </contextAttributes>
+            <contextTags>
+                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractTag</inheritedFrom>
+                <title>ContractTag</title>
+            </contextTags>
+            <inheritedFrom>SalesTransactionContext__stdctx/version/Contract</inheritedFrom>
+            <title>Contract</title>
             <transposable>false</transposable>
         </contextNodes>
         <contextNodes>
@@ -6960,48 +6960,6 @@
         <contextNodes>
             <contextAttributes>
                 <contextTags>
-                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA/ContractAUARecord/ContractAUARecord</inheritedFrom>
-                    <title>ContractAUARecord</title>
-                </contextTags>
-                <dataType>string</dataType>
-                <fieldType>input</fieldType>
-                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA/ContractAUARecord</inheritedFrom>
-                <key>false</key>
-                <title>ContractAUARecord</title>
-                <value>false</value>
-            </contextAttributes>
-            <contextAttributes>
-                <contextTags>
-                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA/ContractAUAAppUsageType/ContractAUAAppUsageType</inheritedFrom>
-                    <title>ContractAUAAppUsageType</title>
-                </contextTags>
-                <dataType>string</dataType>
-                <fieldType>input</fieldType>
-                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA/ContractAUAAppUsageType</inheritedFrom>
-                <key>false</key>
-                <title>ContractAUAAppUsageType</title>
-                <value>false</value>
-            </contextAttributes>
-            <contextAttributes>
-                <dataType>reference</dataType>
-                <domainSet>Contract</domainSet>
-                <fieldType>input</fieldType>
-                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA/ParentReference</inheritedFrom>
-                <key>false</key>
-                <title>ParentReference</title>
-                <value>false</value>
-            </contextAttributes>
-            <contextTags>
-                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA/ContractAUA</inheritedFrom>
-                <title>ContractAUA</title>
-            </contextTags>
-            <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA</inheritedFrom>
-            <title>ContractAUA</title>
-            <transposable>false</transposable>
-        </contextNodes>
-        <contextNodes>
-            <contextAttributes>
-                <contextTags>
                     <inheritedFrom>SalesTransactionContext__stdctx/version/Asset/AssetStatePeriod/AssetStatePeriodQuantity/AssetStatePeriodQuantity</inheritedFrom>
                     <title>AssetStatePeriodQuantity</title>
                 </contextTags>
@@ -7573,6 +7531,48 @@
             </contextTags>
             <inheritedFrom>SalesTransactionContext__stdctx/version/Asset/AssetContractRelationship</inheritedFrom>
             <title>AssetContractRelationship</title>
+            <transposable>false</transposable>
+        </contextNodes>
+        <contextNodes>
+            <contextAttributes>
+                <contextTags>
+                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA/ContractAUARecord/ContractAUARecord</inheritedFrom>
+                    <title>ContractAUARecord</title>
+                </contextTags>
+                <dataType>string</dataType>
+                <fieldType>input</fieldType>
+                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA/ContractAUARecord</inheritedFrom>
+                <key>false</key>
+                <title>ContractAUARecord</title>
+                <value>false</value>
+            </contextAttributes>
+            <contextAttributes>
+                <contextTags>
+                    <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA/ContractAUAAppUsageType/ContractAUAAppUsageType</inheritedFrom>
+                    <title>ContractAUAAppUsageType</title>
+                </contextTags>
+                <dataType>string</dataType>
+                <fieldType>input</fieldType>
+                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA/ContractAUAAppUsageType</inheritedFrom>
+                <key>false</key>
+                <title>ContractAUAAppUsageType</title>
+                <value>false</value>
+            </contextAttributes>
+            <contextAttributes>
+                <dataType>reference</dataType>
+                <domainSet>Contract</domainSet>
+                <fieldType>input</fieldType>
+                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA/ParentReference</inheritedFrom>
+                <key>false</key>
+                <title>ParentReference</title>
+                <value>false</value>
+            </contextAttributes>
+            <contextTags>
+                <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA/ContractAUA</inheritedFrom>
+                <title>ContractAUA</title>
+            </contextTags>
+            <inheritedFrom>SalesTransactionContext__stdctx/version/Contract/ContractAUA</inheritedFrom>
+            <title>ContractAUA</title>
             <transposable>false</transposable>
         </contextNodes>
         <contextNodes>
@@ -8881,12 +8881,13 @@
             <title>LineItemDecomposition</title>
             <transposable>false</transposable>
         </contextNodes>
-        <isActive>true</isActive>
-        <startDate>2024-01-01 21:42:33</startDate>
-        <versionNumber>3</versionNumber>
+        <isActive>false</isActive>
+        <startDate>2024-01-01 00:00:00</startDate>
+        <versionNumber>1</versionNumber>
     </contextDefinitionVersions>
     <contextTtl>10</contextTtl>
     <inheritedFrom>SalesTransactionContext__stdctx</inheritedFrom>
+    <inheritedFromVersion>60.01</inheritedFromVersion>
     <isProtected>false</isProtected>
     <masterLabel>RLM_SalesTransactionContext</masterLabel>
     <title>RLM_SalesTransactionContext</title>
