@@ -182,7 +182,7 @@
                 <inheritedFrom>ProductDiscoveryContext__stdctx/version/ProductDiscoveryMapping/PricingProduct</inheritedFrom>
                 <object>PricingProduct</object>
             </contextNodeMappings>
-            <default>false</default>
+            <default>true</default>
             <description>Mapping for Product Discovery flow</description>
             <inheritedFrom>ProductDiscoveryContext__stdctx/version/ProductDiscoveryMapping</inheritedFrom>
             <title>ProductDiscoveryMapping</title>
@@ -627,7 +627,7 @@
             <title>PricingProduct</title>
             <transposable>false</transposable>
         </contextNodes>
-        <isActive>false</isActive>
+        <isActive>true</isActive>
         <startDate>2024-01-01 00:00:00</startDate>
         <versionNumber>1</versionNumber>
     </contextDefinitionVersions>

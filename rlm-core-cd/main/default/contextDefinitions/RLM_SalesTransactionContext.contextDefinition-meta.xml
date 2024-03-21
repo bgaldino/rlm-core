@@ -1447,7 +1447,7 @@
                 <inheritedFrom>SalesTransactionContext__stdctx/version/SalesTransaction/LineItemDecomposition</inheritedFrom>
                 <object>LineItemDecomposition</object>
             </contextNodeMappings>
-            <default>false</default>
+            <default>true</default>
             <description>Mapping to map entities related to pricing elements</description>
             <inheritedFrom>SalesTransactionContext__stdctx/version/SalesTransaction</inheritedFrom>
             <title>SalesTransaction</title>
@@ -8881,9 +8881,9 @@
             <title>LineItemDecomposition</title>
             <transposable>false</transposable>
         </contextNodes>
-        <isActive>false</isActive>
-        <startDate>2024-01-01 00:00:00</startDate>
-        <versionNumber>1</versionNumber>
+        <isActive>true</isActive>
+        <startDate>2024-01-01 08:00:00</startDate>
+        <versionNumber>2</versionNumber>
     </contextDefinitionVersions>
     <contextTtl>10</contextTtl>
     <inheritedFrom>SalesTransactionContext__stdctx</inheritedFrom>
